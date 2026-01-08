@@ -144,14 +144,10 @@ const LandingPage: React.FC = () => {
         <p className="hero-sub text-base md:text-2xl text-gray-400 mb-8 md:mb-12 max-w-2xl font-light leading-relaxed px-4" style={{ opacity: 1 }}>
           A boutique platform for world-class creators and fans who demand the highest production quality.
         </p>
-        <div className="hero-cta flex flex-col sm:flex-row gap-4 md:gap-6 w-full sm:w-auto" style={{ opacity: 1 }}>
+        <div className="hero-cta flex justify-center w-full sm:w-auto" style={{ opacity: 1 }}>
           <Link to="/login" className="group relative bg-white text-black px-8 md:px-12 py-4 md:py-5 rounded-full text-lg md:text-xl font-bold hover:bg-purple-600 hover:text-white transition-all duration-500 shadow-[0_0_30px_rgba(255,255,255,0.1)] active:scale-95 text-center">
             Get Started
             <div className="absolute inset-0 rounded-full bg-white group-hover:blur-md -z-10 transition-all opacity-0 group-hover:opacity-30"></div>
-          </Link>
-          <Link to="/login" className="glass px-8 md:px-12 py-4 md:py-5 rounded-full text-lg md:text-xl font-bold hover:bg-white/10 transition-all border border-white/10 flex items-center justify-center gap-2 text-center">
-            Watch Trailer
-            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"></path></svg>
           </Link>
         </div>
       </section>
