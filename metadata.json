@@ -1,0 +1,8 @@
+{
+  "name": "VlogVibe - Premium Content Platform",
+  "description": "A high-end SaaS vlogging platform featuring immersive scroll animations, glassmorphic UI, and real-time creator chat simulations.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
